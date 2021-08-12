@@ -3013,6 +3013,12 @@
     githubId = 1181393;
     name = "Eduard Bachmakov";
   };
+  edlimerkaj = {
+    name = "Edli Merkaj";
+    email = "edli.merkaj@identinet.io";
+    github = "edlimerkaj";
+    githubId = 71988351;
+  };
   edude03 = {
     email = "michael@melenion.com";
     github = "edude03";
