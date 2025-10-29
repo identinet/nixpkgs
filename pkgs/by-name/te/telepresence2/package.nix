@@ -11,7 +11,7 @@ let
   telepresenceAttrs = {
     owner = "telepresenceio";
     repo = "telepresence";
-    version = "2.22.4";
+    version = "2.25.0";
     rev = "v${telepresenceAttrs.version}";
     srcHash = "sha256-ECuu6uMsY5vZVrMJknnd5IH0BZ2yVBTKIIC/Q8RARs8=";
     vendorHash = "sha256-+l+Dtyq+9u+Lc6yF++KnX2DixVVfPX+oFUn3lq6B/1U=";
@@ -59,7 +59,7 @@ let
   # Fetch the _definitions.json based on K8S_VERSION
   k8sDefsJson = fetchurl {
     url = "https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/${k8sVersion}-standalone/_definitions.json";
-    hash = "sha256-lU3mcjwwf7ZLek+5S6XnLS/qpPbcPAbwcWDjYf+8dYU=";
+    hash = "sha256-WOodTFscfRP+yrmqrRoqMYdge3BCGd3xeUIRv8s82xI=";
   };
 
   fuseftp = buildGoModule rec {
